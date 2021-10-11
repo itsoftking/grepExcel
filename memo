@@ -1,0 +1,5 @@
+1.error:Caused by: java.io.IOException: Zip bomb detected! The file would exceed the max. 
+  solution:
+	ZipSecureFile.setMinInflateRatio(-1.0d);
+	XSSFWorkbook wb = new XSSFWorkbook(file);
+2.
